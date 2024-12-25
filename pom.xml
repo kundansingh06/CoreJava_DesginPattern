@@ -7,7 +7,6 @@
     <groupId>org.example</groupId>
     <artifactId>CoreJava_DesginPattern</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -15,8 +14,9 @@
     </properties>
 
     <dependencies>
-
     </dependencies>
+
+    <!--
     <build>
         <finalName>SingletonDesignPattern</finalName>
         <plugins>
@@ -30,7 +30,7 @@
                 </configuration>
             </plugin>
 
-            <!-- create executable jar -->
+           create executable jar
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -46,7 +46,7 @@
                 </configuration>
             </plugin>
 
-            <!-- copy dependencies / jars to ${project.build.directory}/lib/ -->
+            copy dependencies / jars to ${project.build.directory}/lib/
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -68,5 +68,6 @@
             </plugin>
         </plugins>
     </build>
+        -->
 
-</project>
+       </project>
